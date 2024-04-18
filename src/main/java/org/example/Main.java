@@ -22,8 +22,7 @@ public class Main {
                     protected PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication("negi.srishti1812", "zsky hmdy cprl fthm");
                     }
-                }
-                );
+                });
 
         try {
             Message message = new MimeMessage(session);
