@@ -10,6 +10,10 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'jakarta.mail', name: 'jakarta.mail-api', version: '2.1.2'
+    implementation group: 'org.eclipse.angus', name: 'angus-mail', version: '2.0.2'
+
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
